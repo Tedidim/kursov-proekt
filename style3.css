@@ -1,0 +1,157 @@
+nav {
+    background-color: #9cbf33; 
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
+.logo {
+    display: flex; 
+    justify-content: flex-start; 
+    
+}
+
+
+.logo a {
+    display: inline-block; 
+    text-decoration: none; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+.logo img {
+    width: 90px; 
+    height: 90%; 
+    
+}
+
+
+.container {
+    padding: 20px;
+}
+
+.container h2,
+.container h3 {
+    color: #333; 
+}
+
+.container p {
+    color: #555; 
+    line-height: 1.6;
+}
+
+.container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+
+.category-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.category-box h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+
+.custom-footer {
+    background-color: #9cbf33; 
+    color: white;            
+    text-align: center;            
+    padding: 20px 0;                   
+    width: 100%; 
+                           
+}
+
+
+footer .footer-links a {
+    color: white;            
+    text-decoration: none;  
+    margin: 0 10px;          
+    font-size: 16px;          
+    font-weight: bold;        
+}
+
+
+footer .footer-links a:hover {
+    text-decoration: underline; 
+    color: #ffffff;            
+}
+
+
+footer p {
+    margin: 0; 
+    font-size: 14px; 
+}
+.footer-icons {
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 10px;
+   
+}
+
+
+.footer-icons a {
+    display: inline-block; 
+    text-decoration: none; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+.footer-icons img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px;
+ 
+}
+
+
+.footer-icons a:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+

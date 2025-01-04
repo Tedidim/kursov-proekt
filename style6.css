@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #9cbf33; 
+    color: white; 
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+
+header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+h3 {
+    font-weight: bold;
+    background-color: #88c880;
+}
+h2 {
+    font-weight: bold;
+    background-color: #ccf9c7;
+}
+.logo {
+    display: flex; 
+    justify-content: flex-start; 
+    
+}
+
+
+.logo a {
+    display: inline-block; 
+    text-decoration: none; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+.logo img {
+    width: 90px; 
+    height: 90%; 
+   
+}
+nav {
+    background-color: #9cbf33; 
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
+
+.custom-footer {
+    background-color: #9cbf33; 
+    color: white;            
+    text-align: center;                  
+    padding: 20px 0;                    
+    width: 100%; 
+                           
+}
+
+footer .footer-links a {
+    color: white;             
+    text-decoration: none;    
+    margin: 0 10px;           
+    font-size: 16px;          
+    font-weight: bold;      
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline; 
+    color: #ffffff;            
+}
+
+
+footer p {
+    margin: 0;
+    font-size: 14px; 
+}
+
+.footer-icons {
+    display: flex; 
+    justify-content: flex-end; 
+    
+}
+
+
+.footer-icons a {
+    display: inline-block; 
+    text-decoration: none; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+.footer-icons img {
+    width: 30px; 
+    height: 30px; 
+  
+}
+
+
+.footer-icons a:hover {
+    transform: scale(1.2); 
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+
+
